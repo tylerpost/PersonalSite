@@ -1,1 +1,90 @@
+h1,h2,h3,h4{
+	font-family: 'Ubuntu', sans-serif;
+}
 
+h1{
+	font-size:50px;
+	letter-spacing:4px;
+	display:inline-block;
+	text-align:center;
+}
+
+h1::first-letter{
+	font-size:120%;
+}
+
+p{
+	font-family: 'Muli', sans-serif;
+}
+
+#title{
+	margin:auto;
+	width:450px;
+}
+
+#navigation{
+	margin:auto;
+	width:;
+}
+.link-controls{
+	display:inline-block;
+}
+
+.nav-button{
+	display:inline-block;
+	border-radius:50%;
+	cursor:pointer;
+
+	background-color:#DDD;
+	height:120px;
+	width:120px;
+
+	-webkit-transform: translateZ(0);
+ 	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+}
+
+
+.nav-button:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+}
+
+.nav-button .git-icon:hover{
+	transform: translate(0,-1em);
+	content:"GIT";
+}
+.git-icon{
+	width:65px;
+	padding:17px;
+
+	transition-property:transform;
+	transition:duration:0.3s;
+	-webkit-transition-duration:0.3s;
+	-webkit-transition-propery:transform;
+
+}
+
+
+.linkedin-icon{
+	width:60px;
+	padding:19px;
+}
+.proj-icon{
+	width: 65px;
+    padding-top: 17px;
+    padding-left: 21px;
+ }
+
+ .resume-icon{
+ 	width:65px;
+ 	padding:15px;
+ }

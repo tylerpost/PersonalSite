@@ -10,4 +10,14 @@ angular.module('mySite', [
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/'});
   console.log("PLS");
+}])
+
+.controller('homeCtrl', [function(){
+	$scope.title = "Tyler Post";
+
+	$scope.redirect= function(path){
+		 
+	}
+
+
 }]);

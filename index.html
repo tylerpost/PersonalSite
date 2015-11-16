@@ -7,21 +7,43 @@
 	<title>Tyler Post</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="home.css">
+	<link href='https://fonts.googleapis.com/css?family=Muli|Ubuntu' rel='stylesheet' type='text/css'>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
 
+
+
 </head>
 
 
-<body ng-controller="mySite">
+<body ng-controller="homeCtrl" background="images/forest1.jpg">
 	<div id="title">
-		<div class="name">
-			<h1> Tyler Post </h1>
+		<div class="name" style="display:inline-block">
+			<h1>TYLER</h1>
+			 <h1>POST</h1>
+			<p>Engineer - Educator - Developer </p>
 		</div>
-		<div class="controls">
-			<a href="#/projects">Projects</a>
-			<a href="#/resume">Resume</a>
+	</div>
+	<div id="navigation">
+		<div class="link-controls">
+			<div class="nav-button">
+				<img src="images/projects.png" class="proj-icon">
+				<p class="nav-text">Projects</p>
+			</div>
+			<div class="nav-button" ng-href="https://github.com/tylerpost" target="_blank">
+				<img src="images/github.png"  class="git-icon">
+				<p class="nav-text">GitHub</p>
+			</div>
+			<div class="nav-button">
+				<img src="images/linkedin.png" class="linkedin-icon">
+				<p class="nav-text">Linkedin</p>
+			</div>
+			<div class="nav-button">
+				<img src="images/resume.png" class="resume-icon">
+				<p class="nav-text">Resume</p>
+			</div>
+
 		</div>
 
 	</div>

@@ -4,6 +4,7 @@
 angular.module('mySite.projects', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
+  console.log('proj');
   $routeProvider.when('/projects', {
     templateUrl: 'Projects/projects.html',
     controller: 'projectsCtrl'
@@ -11,5 +12,5 @@ angular.module('mySite.projects', ['ngRoute'])
 }])
 
 .controller('projectsCtrl', [function() {
-	
+
 }]);
