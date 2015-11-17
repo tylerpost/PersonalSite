@@ -19,29 +19,33 @@
 
 <body ng-controller="homeCtrl" background="images/forest1.jpg">
 	<div id="title">
-		<div class="name" style="display:inline-block">
-			<h1>TYLER</h1>
-			 <h1>POST</h1>
-			<p>Engineer - Educator - Developer </p>
+		<div class="name">
+			<h1 class="name">TYLER</h1>
+			 <h1 class="name">POST</h1>
+			<p>Engineer &#8226 Educator &#8226 Developer </p>
 		</div>
 	</div>
 	<div id="navigation">
 		<div class="link-controls">
 			<div class="nav-button">
-				<img src="images/projects.png" class="proj-icon">
+				<img src="images/proj-icon.png" class="proj-icon">
 				<p class="nav-text">Projects</p>
+				<a href="#projects"><span></span></a>
 			</div>
-			<div class="nav-button" ng-href="https://github.com/tylerpost" target="_blank">
-				<img src="images/github.png"  class="git-icon">
+			<div class="nav-button">
+				<img src="images/git-icon.png"  class="git-icon">
 				<p class="nav-text">GitHub</p>
+				<a href="http://github.com/tylerpost" target="_blank"><span></span></a>
 			</div>
 			<div class="nav-button">
-				<img src="images/linkedin.png" class="linkedin-icon">
-				<p class="nav-text">Linkedin</p>
+				<img src="images/linkedin-icon.png" class="linkedin-icon">
+				<!-- <p class="nav-text">Linkedin</p> -->
+				<a href="http://linkedin.ca" target="_blank"><span></span></a>
 			</div>
 			<div class="nav-button">
-				<img src="images/resume.png" class="resume-icon">
+				<img src="images/resume-icon.png" class="resume-icon">
 				<p class="nav-text">Resume</p>
+				<a href="#resume"><span></span></a>
 			</div>
 
 		</div>
